@@ -1,0 +1,129 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+p {
+    font-size: 15px;
+    display: inline-block;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+    margin-top: 8%;
+    vertical-align: bottom;
+    height: 33%;
+    width: 33%;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.card {
+    margin: 0% 5%;
+    position: relative;
+    color: var(--Transparent-white);
+    width: 90%;
+    line-height: 150%;
+}
+
+.first {
+    background-color: var(--Bright-orange);
+    padding: 12% 15% 17% 12%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+
+.second {
+    background-color: var(--Dark-cyan);
+    padding: 12% 15% 17% 12%;
+}
+
+
+.third {
+    background-color: var(--Very-dark-cyan);
+    padding: 12% 15% 17% 12%;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.button {
+    display: block;
+    width: 140px;
+    height: 30px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    margin: 20px 0px 0px 0px;
+    padding: 10px 5px 10px 5px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+
+.btt1 {
+    color: var(--Bright-orange);
+}
+
+.btt2 {
+    color: var(--Dark-cyan);
+}
+
+.btt3 {
+    color: var(--Very-dark-cyan);
+}
+
+.attribution {
+    padding: 15px 0px 15px 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 750px) {
+    section{
+        display: inline-block;
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+    .card {
+        margin: 0;
+        width: 31%;
+        height: auto;
+        line-height: 130%;
+    }
+
+    .first {
+        padding: 12% 18% 20% 15%;
+        border-radius: 7px 0px 0px 7px;
+    }
+
+
+    .second {
+        padding: 12% 18% 20% 15%;
+    }
+
+
+    .third {
+        padding: 12% 18% 20% 15%;
+        border-radius: 0px 7px 7px 0px;
+    }
+
+    .button {
+        margin: 70px 0px 0px 10px;
+        padding: 10px 5px 10px 5px;
+
+    }
+}
